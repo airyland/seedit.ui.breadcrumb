@@ -1,0 +1,27 @@
+.sd-breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.sd-breadcrumb li {
+  display: inline-block;
+}
+
+.sd-breadcrumb-sep > li + li:before {
+  padding: 0 5px;
+  color: #cccccc;
+  content: "/\00a0";
+}
+
+.sd-breadcrumb .sd-breadcrumb-active {
+  color: #999999;
+}
+
+.sd-breadcrumb .sd-breadcrumb-sep { 
+  padding: 0 5px 0 12px;
+  font-family: "SimSun"; 
+  color:#999;
+}
